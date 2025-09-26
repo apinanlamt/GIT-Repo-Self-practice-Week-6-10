@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1 id="title">Welcome!</h1>
+      <button id="btnChange">Change Text</button>
+    </header>
+
+    <section class="card">
+      <h2>My Favorite Fruits</h2>
+      <ul id="fruitList">
+        <li>Apple</li>
+        <li>Banana</li>
+      </ul>
+      <button id="btnAdd">Add Fruit</button>
+    </section>
+
+    <section class="card">
+      <p id="message">This is a secret message.</p>
+      <button id="btnToggle">Hide/Show</button>
+    </section>
+
+    <section class="card">
+      <button id="btnCount">Click Me</button>
+      <p id="count">Clicked: 0 times</p>
+    </section>
+
+    <section class="card">
+      <button id="btnName">Enter Your Name</button>
+      <h2 id="greeting"></h2>
+    </section>
+
+    <section class="card">
+      <h2>Pop Cat Clicker!</h2>
+      <p>Clicks: <span id="popScore">0</span></p>
+      <img id="popCat" src="./img/cat_closed.png" alt="Pop Cat" />
+    </section>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
