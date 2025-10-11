@@ -24,7 +24,7 @@ function renderQuotes() {
     const allQuotes = getAllQuotes();
     allQuotes.forEach(quote => {
         const p = document.createElement("p");
-        p.textContent = `"${quote.content}" — ${quote.author}`; // ใช้ dash ยาว
+        p.textContent = `"${quote.content}" — ${quote.author}`;
         quoteList.appendChild(p);
     });
 }
