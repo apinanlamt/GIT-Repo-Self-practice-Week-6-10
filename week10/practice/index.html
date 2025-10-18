@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Color & Font Settings</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Customize Your Page</h1>
+
+    <div class="form-group">
+      <label for="bgColor">Background Color:</label>
+      <input type="color" id="bgColor" />
+    </div>
+
+    <div class="form-group">
+      <label for="fontColor">Font Color:</label>
+      <input type="color" id="fontColor" />
+    </div>
+
+    <div class="form-group">
+      <label for="fontSize">Font Size:</label>
+      <select id="fontSize">
+        <option value="small">Small</option>
+        <option value="medium" selected>Medium</option>
+        <option value="large">Large</option>
+      </select>
+    </div>
+
+    <div class="button-group">
+      <button id="saveBtn" class="btn save">Save</button>
+      <button id="resetBtn" class="btn reset">Reset</button>
+    </div>
+
+    <p id="previewText">This is a preview text.</p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
